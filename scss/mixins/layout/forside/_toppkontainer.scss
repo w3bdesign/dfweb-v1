@@ -1,0 +1,8 @@
+/* Topp Kontainer */
+.topp-kontainer {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+      'showcase showcase showcase'
+      'showcase showcase showcase';
+  }

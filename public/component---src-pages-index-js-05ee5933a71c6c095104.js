@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{RXBc:function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),c=n.n(a);t.default=function(){return c.a.createElement("div",{className:"container p-10"},c.a.createElement("button",{className:"px-4 py-4 bg-blue-600 rounded text-white hover:bg-blue-500"},"Gatsby Button"))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-05ee5933a71c6c095104.js.map

@@ -1,0 +1,37 @@
+/* Hoved */
+@use '../../variabler' as variabler;
+
+* {
+    font-family: Arial, Helvetica, sans-serif; // Nødvendig etter Normalize.css
+  }
+  
+  html {
+    box-sizing: border-box;
+    color: variabler.$text;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background: variabler.$text;
+    margin: 30px 50px;
+    line-height: 1.4;
+    padding: 20px; // Nødvendig etter Normalize.css
+  }
+  
+  .btn {
+    background: variabler.$dark;
+    color: variabler.$text;
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: 0;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-gap: 20px;
+  }
+  

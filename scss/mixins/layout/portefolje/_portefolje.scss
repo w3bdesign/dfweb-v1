@@ -1,0 +1,65 @@
+/* Portefølje */
+@use '../../variabler' as variabler;
+
+.portfolio-header {
+  h4 {
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+.portfolio-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: variabler.$primary;
+  color: variabler.$text;
+  box-shadow: variabler.$shadow;
+}
+
+.portfolio .boks p {
+  text-align: center;
+}
+
+.bokser a {
+  color: #fff;
+}
+
+.portfolio-content span {
+  padding: 0.5rem;
+}
+
+.portfolio-header {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: variabler.$dark;
+  color: variabler.$text;
+  box-shadow: variabler.$shadow;
+}
+
+h3,
+.portfolio-content span {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.portfolio {
+  display: grid;
+  grid-gap: 20px;
+  //VAR: grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+
+  .portfolio img {
+    width: auto;
+    box-shadow: variabler.$shadow;
+    max-height: 300px;
+  }
+}
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+  background: variabler.$dark;
+  color: variabler.$text;
+  text-align: center;
+  padding: 1rem;
+}
