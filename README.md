@@ -3,11 +3,7 @@
 
 # Dfweb
 
-Currently a work in progress, but version 1 has been released for now.
-
-Version 2 will be a Gatsby portfolio website.
-
-URL for development site: https://dev.dfweb.no/
+Url: https://v1.dfweb.no
 
 ## Features:
 
