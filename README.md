@@ -10,6 +10,7 @@ Live Url: https://v1.dfweb.no
 
 ## Features:
 
+- Top score (10/10) on code quality in Scrutinizer CI
 - 100% score on Google Pagespeed Insights (Desktop)
 - 100% score in GTMetrix
 - 100% score on accessibility checks
