@@ -2,20 +2,20 @@
 @use '../../variabler' as variabler;
 
 .bokser {
-    .fab {
-      padding: 10px;
-    }
+  .fab {
+    padding: 10px;
   }
-  
-  .boks {
-    background: variabler.$primary;
-    text-align: center;
-    padding: 1.5rem 2rem;
-    -webkit-box-shadow: variabler.$box-shadow;
-    -moz-box-shadow: variabler.$box-shadow;
-    box-shadow: variabler.$box-shadow;
-  }
-  
-  .boks p {
-    text-align: left;
-  }
+}
+
+.boks {
+  background: variabler.$primary;
+  text-align: center;
+  padding: 1.5rem 2rem;
+  -webkit-box-shadow: variabler.$box-shadow;
+  -moz-box-shadow: variabler.$box-shadow;
+  box-shadow: variabler.$box-shadow;
+}
+
+.boks p {
+  text-align: left;
+}

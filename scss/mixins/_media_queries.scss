@@ -34,12 +34,11 @@
     grid-gap: 20px;
     grid-template-columns: 1fr;
   }
-
 }
 
 @media (min-width: 700px) {
   .main-nav {
-    background: variabler.$dark;   
+    background: variabler.$dark;
     ul {
       display: grid;
       grid-gap: 20px;
@@ -90,8 +89,8 @@
 
   .topp-kontainer {
     grid-template-areas:
-      'showcase showcase'
-      'top-box-a top-box-a' !important;
+      "showcase showcase"
+      "top-box-a top-box-a" !important;
   }
 
   .top-box-a {
@@ -123,10 +122,8 @@
 
   .kontakt-div {
     padding: 0px;
-    min-width: 90vw;    
+    min-width: 90vw;
   }
-
-  
 
   .kontakt-div input,
   .kontakt-div textarea {
@@ -150,8 +147,8 @@
 
   .topp-kontainer {
     grid-template-areas:
-      'showcase'
-      'top-box-a' !important;
+      "showcase"
+      "top-box-a" !important;
   }
 
   .top-box-a {
@@ -173,12 +170,12 @@
 
 @media (max-width: 500px) {
   .portfolio-header.reveal.visible,
-  .main-nav, .portfolio-header {
+  .main-nav,
+  .portfolio-header {
     max-width: 90vw;
   }
 
-  .kontakt-div {    
-     padding: 0px !important;  
-     
+  .kontakt-div {
+    padding: 0px !important;
   }
 }
