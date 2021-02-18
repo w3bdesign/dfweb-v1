@@ -8,7 +8,7 @@ const startScrollMagic = () => {
   let counter = 0;
 
   // Replaced for loop here with modern ES6 syntax and forEach
-  elementsArray.forEach((_) => {
+  elementsArray.forEach(() => {
     const counterEqElementCount = counter === revealElementCount;
     const myOffset = counterEqElementCount ? -100 : 200;
     new ScrollMagic.Scene({
