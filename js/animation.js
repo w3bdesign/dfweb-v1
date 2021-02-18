@@ -19,7 +19,7 @@ const startScrollMagic = () => {
     })
       .setClassToggle(revealElements[counter], 'visible')
       .addTo(controller);
-    counter++;
+    counter += 1;
   });
 };
 
