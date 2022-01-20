@@ -1,4 +1,4 @@
-@use 'variabler' as variabler;
+@use "variabler" as variabler;
 /* CSS for IE */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .wrapper {

@@ -1,6 +1,6 @@
 /* Variabler, Media query, Animasjoner og Scrollmagic */
 @use "mixins/media_queries"; // Denne bør være først
-@use 'mixins/variabler' as variabler;
+@use "mixins/variabler" as variabler;
 @use "mixins/scrollmagic";
 @use "mixins/animations";
 
