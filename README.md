@@ -16,7 +16,7 @@ Live Url: https://v1.dfweb.no
 - 100% score on accessibility checks
 - Semantic HTML5 with a minimum of DIVs
 - SASS with CSS Grid for layout
-- Minified CSS with PurgeCSS
+- Parcel 2
 - CSS3 for animations
 - Scrollmagic for scrolling animations
 - Contact form with PureCSS
