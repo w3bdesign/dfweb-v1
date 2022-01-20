@@ -2,10 +2,10 @@
   "name": "dfweb-v1",
   "version": "1.0.0",
   "description": "Dfweb v1",
-  "source": "index.html",
+  "source": "src/html/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel src/html/index.html",
     "build": "parcel build"
   },
   "devDependencies": {
