@@ -4,6 +4,11 @@
 @use "mixins/scrollmagic";
 @use "mixins/animations";
 
+/* Font Awesome */
+@use "fontawesome.scss";
+@use "solid.scss";
+@use "brands.scss";
+
 /* Forside */
 @use "mixins/layout/forside/toppkontainer";
 @use "mixins/layout/forside/top-box";
@@ -21,3 +26,4 @@
 
 /* Kontaktskjema */
 @use "mixins/layout/kontakt/kontaktskjema";
+
