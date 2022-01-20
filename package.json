@@ -1,0 +1,32 @@
+{
+  "name": "dfweb-v1",
+  "version": "1.0.1",
+  "description": "Dfweb v1",
+  "source": "src/html/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel src/html/index.html",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.2.1",
+    "@parcel/transformer-sass": "^2.2.1",
+    "@parcel/transformer-webmanifest": "^2.2.1",
+    "parcel": "^2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w3bdesign/dfweb-v1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w3bdesign/dfweb-v1/issues"
+  },
+  "homepage": "https://github.com/w3bdesign/dfweb-v1#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "gsap": "^3.9.1",
+    "scrollmagic": "^2.0.8"
+  }
+}

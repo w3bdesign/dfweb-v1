@@ -1,7 +1,10 @@
 /** global: ScrollMagic */
+
+import ScrollMagic from "scrollmagic";
+
 const startScrollMagic = () => {
   const controller = new ScrollMagic.Controller();
-  const revealElements = document.getElementsByClassName('reveal');
+  const revealElements = document.getElementsByClassName("reveal");
   const revealElementCount = revealElements.length - 1;
   const elementsArray = Array.from(revealElements);
 
@@ -17,7 +20,7 @@ const startScrollMagic = () => {
       reverse: false,
       triggerHook: 0.9,
     })
-      .setClassToggle(revealElements[counter], 'visible')
+      .setClassToggle(revealElements[counter], "visible")
       .addTo(controller);
     counter += 1;
   });
