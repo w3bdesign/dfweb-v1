@@ -1,1 +1,0 @@
-{"componentChunkName":"component---src-templates-blog-template-js","path":"/blog/my-first-post","result":{"data":{"markdownRemark":{"html":"<h1>TEST FILE</h1>\n<h2>TEST HEADER</h2>\n<p>Dette er en test</p>","frontmatter":{"date":"March 25, 2020","path":"/blog/my-first-post","title":"My first blog post"}}},"pageContext":{}}}
