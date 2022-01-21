@@ -21,6 +21,5 @@ Live Url: https://v1.dfweb.no
 - CSS3 for animations
 - Scrollmagic for scrolling animations
 - Contact form with PureCSS
-- Netlify Forms with honeypot
 - Modern Normalize.css
 - HTML5 form validation in contact form
